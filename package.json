@@ -1,6 +1,6 @@
 {
-  "name": "egg-proxy",
-  "version": "1.0.6",
+  "name": "egg-proxy-b",
+  "version": "1.0.0",
   "description": "proxy plugin for egg",
   "eggPlugin": {
     "name": "proxy"
@@ -13,7 +13,7 @@
     "egg-proxy"
   ],
   "dependencies": {
-    "koa-proxy": "^0.8.0"
+    "koa-proxy-b": "^0.1.0"
   },
   "devDependencies": {
     "autod": "^2.8.0",
@@ -40,10 +40,10 @@
     "autod": "autod"
   },
   "files": [
-    "app.js",
-    "config",
     "app",
-    "lib"
+    "lib",
+    "config",
+    "app.js"
   ],
   "ci": {
     "version": "6, 8"
@@ -56,6 +56,6 @@
     "url": "https://github.com/xxeric/egg-proxy/issues"
   },
   "homepage": "https://github.com/xxeric/egg-proxy#readme",
-  "author": "qeric",
+  "author": "qeric, L1ud0ngq1",
   "license": "MIT"
 }

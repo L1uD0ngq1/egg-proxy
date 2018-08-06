@@ -1,6 +1,6 @@
 'use strict';
 
-const proxy = require('koa-proxy');
+const proxy = require('koa-proxy-b');
 
 module.exports = app => {
 
